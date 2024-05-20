@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      background-color: #716f6f;
+      color: rgb(212, 16, 163);
+      padding: 10px 0;
+    }
+    .menu a {
+      text-decoration: none;
+      color: rgb(211, 30, 148);
+    }
+    .menu a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contato">Contato</a>
+  </div>
+
+  <title>Meu Portfólio</title>
+  <style>
+    /* Estilos para o modo claro */
+    body {
+      background-color: #f3d6e6; /* Cor de fundo */
+      color: #bc2799; /* Cor do texto */
+    }
+
+    /* Estilos para o modo escuro */
+    .dark-mode {
+      background-color: #030303; /* Cor de fundo */
+      color: #bc2799; /* Cor do texto */
+    }
+</style>
+<script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</head>
+<body>
+
+  <h1 id="inicio">Jussara Rebeca Rodrigues Resende</h1>
+
+  <button onclick="toggleDarkMode()">Alternar Modo</button>
+
+  <p><em><strong>Sobre mim</strong></em></p>
+
+
+  <title>Galeria de Imagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gallery-container">  
+    <div class="gallery"></div>
+  </div>
+      <img src="image1.jpg" alt="image1">
+    </div>
+  </div>
+
+
+  <br>
+  <p>Obrigada por acessar meu site!</p>
+  <p>Esse site irá falar um pouco sobre mim, e descrever como e porque decidi fazer TI, como anda minha vida profissional no momento, cursos dentre várias outras coisas.</p>
+  <p>Espero que gostem, e que incentivem vocês que desejam fazer TI a ir atrás do sonho de vocês!</p>
+
+  <div class="Sobre-box" id="sobre">
+    <p>Me chamo Rebeca, moro na zona leste de SP, (Brás), desenvolvi interesse pela área de TI, por ter muito contato com pessoas da área, ver elas trabalhando, arrumando erros, principalmente com a linguagem <ins>C#</ins>, o que gerou interesse e me fez ir atrás de conhecer melhor as áreas que a formação engloba.</p>
+    <p>Já trabalhei como jovem aprendiz em uma farmácia, como auxiliar administrativo, como suporte de sistema, e <ins>atualmente trabalho como suporte de sistema em uma empresa de caráter administrativo.</ins></p>
+  </div>
+
+  <div class="Cursos-box" id="cursos">
+    <h2><strong>Cursos</strong></h2>
+    <p>Estes são alguns dos principais cursos que fiz para poder estar agregando o meu conhecimento</p>
+    <ol>
+      <li>Curso de informática avançado
+        <ul>
+          <li>Word</li>
+          <li>Excel</li>
+          <li>Powerpoint</li>
+          <li>Windows</li>
+          <li>Digitação</li>
+        </ul>
+      </li>
+      <li>Administração</li>
+      <li>Matemática financeira</li>
+      <li>Contabilidade com escrita fiscal</li>
+      <li>Secretariado</li>
+    </ol>
+
+    <p>E estes são alguns cursos que estou fazendo no momento, <mark>para finalizar no fim deste ano</mark></p>
+    <ol>
+      <li>Inglês</li>
+      <li>Espanhol</li>
+    </ol>
+
+    <table class="demo">
+      <caption>Tabela Portfólio</caption>
+      <thead>
+        <tr>
+          <th>Cursos Realizados</th>
+          <th>Tempo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Curso de informática</td>
+          <td>&nbsp;Um ano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Curso administrativo</td>
+          <td>&nbsp;Um ano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Curso de Inglês</td>
+          <td>&nbsp;Três anos</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Curso de espanhol</td>
+          <td>&nbsp;Três anos</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="Redes" id="contato">
+    <h3><strong>Redes Sociais</strong></h3>
+    <p>
+      <a href="https://www.facebook.com/jussara.rebeca.94?mibextid=ZbWKwL">Facebook</a>
+    </p> 
+    <p>
+      <a href="https://www.instagram.com/becaa_resende?igsh=MXpuYTcwdnVxbGR4">Instagram</a>
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/jussara-rebeca-4b87232a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+    </p>
+  </div>
+
+  <title>Formulário de Contato</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+    
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+          <option value="">Selecione...</option>
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="outro">Outro</option>
+        </select>
+    
+        <label for="escolaridade">Escolaridade:</label>
+        <select id="escolaridade" name="escolaridade" required>
+          <option value="">Selecione...</option>
+          <option value="fundamental">Fundamental</option>
+          <option value="medio">Médio</option>
+          
+      <option value="superior">Superior</option>
+      <option value="pos-graduacao">Pós-Graduação</option>
+      <option value="outro">Outro</option>
+    </select>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+<div id="hearts"></div>
+</head>
+<body>
+
+  <script src="app.js"></script>
+</body>
+</html>

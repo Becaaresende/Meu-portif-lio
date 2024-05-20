@@ -1,0 +1,109 @@
+/* Estilização da página */
+body {
+    background-color: #f5bcdc; /* Cor de fundo rosa bebê */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimento padrão */
+  }
+  
+  /* Estilização do cabeçalho */
+  h1 {
+    color: #f009b6; /* Cor do texto vermelho */
+  }
+  
+  /* Estilização do texto */
+  p {
+    color: #bc2799; /* Cor do texto preto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+  }
+  
+  /* Estilização da tabela */
+  table.demo {
+    border-collapse: collapse; /* Colapso das bordas da tabela */
+    width: 100%;
+  }
+  
+  table.demo th, table.demo td {
+    border: 1px solid #e7e2e2; /* Borda preta */
+    padding: 8px; /* Espaçamento interno */
+  }
+  
+  /* Estilização do menu de navegação */
+  .menu {
+    display: flex; /* Usando flexbox */
+    justify-content: space-around; /* Espaço igual entre os itens */
+    background-color: #bc2799; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  .menu a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #bc2799; /* Cor do texto preto */
+    font-weight: bold; /* Texto em negrito */
+  }
+  
+  .menu a:hover {
+    color: #ff4d4d; /* Cor do texto preto ao passar o mouse */
+  }
+  
+  .formulario 
+     body {
+    font-family: Arial, sans-serif;
+    background-color: #bc2799;
+    padding: 20px;
+  }
+
+  form {
+    background-color: #bc2799;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #961656;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: rgb(105, 6, 61);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    
+    background-color: #45a049;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    text-align: center; /* Alinha o conteúdo no centro horizontal */
+}
+
+.container img {
+    display: block; /* Define a imagem como um bloco */
+    margin:  center; /* Define margem automática nas laterais, centralizando a imagem */
+}
+
